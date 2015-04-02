@@ -56,7 +56,8 @@ void initPWM(void)
         TMR2ON = 1; // Turn it on
 }
 
-void main(void) {
+void main(void)
+{
         setupIO();
         initPWM();
         while(1)
