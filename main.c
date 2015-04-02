@@ -11,9 +11,11 @@
 #include "config.h"
 #include "pins.h"
 
-void setupIO(void) {
+void setupIO(void)
+{
         TRISD = 0xFE; /* Set output */
 }
+
 setPWM(unsigned int pin, unsigned int dutyCycle)
 {
         switch(pin)
@@ -34,6 +36,7 @@ setPWM(unsigned int pin, unsigned int dutyCycle)
                 }
         }
 }
+
 void initPWM(void)
 {
         // Set up pins
