@@ -1,0 +1,14 @@
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+debug/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+*.swp
+*.hex
+*.err
+l.obj
+funclist
